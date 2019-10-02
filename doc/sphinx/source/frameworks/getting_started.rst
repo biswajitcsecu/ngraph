@@ -1,15 +1,13 @@
 .. frameworks/getting_started.rst
 
+.. _fw_getting_started:
+
 Getting Started
 ###############
 
 No matter what your level of experience with :abbr:`Deep Learning (DL)` systems 
 may be, nGraph provides a path to start working with the DL stack. Let's begin 
 with the easiest and most straightforward options.
-
-.. figure:: ../graphics/translation-flow-to-ng-fofx.png
-   :width: 725px
-   :alt: Translation flow to nGraph function graph
 
 The easiest way to get started is to use the latest PyPI `ngraph-tensorflow-bridge`_,
 which has instructions for Linux* systems, and tips for users of Mac OS X. 
@@ -78,7 +76,7 @@ Other integration paths
 
 If you are considering incorporating components from the nGraph Compiler stack 
 in your framework or neural network design, another useful doc is the section 
-on :doc:`generic-configs`. Contents here are also useful if you are working on 
+on :doc:`generic_configs`. Contents here are also useful if you are working on 
 something built-from-scratch, or on an existing framework that is less 
 widely-supported than the popular frameworks like TensorFlow and PyTorch.
 

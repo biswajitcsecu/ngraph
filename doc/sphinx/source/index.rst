@@ -55,8 +55,9 @@ packages, scripts, and other files that use licensing.
    :maxdepth: 1
    :caption: Framework Support
 
-   frameworks/index.rst
+   frameworks/getting_started.rst
    frameworks/validated/list.rst
+   frameworks/index.rst
 
 
 .. toctree::

@@ -1,5 +1,7 @@
 .. frameworks/onnx_integ.rst:
 
+.. _onnx_integ:
+
 ONNX Support
 ============
 

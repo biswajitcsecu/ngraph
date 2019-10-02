@@ -1,5 +1,7 @@
 .. frameworks/paddle_integ.rst:
 
+.. _paddle_integ:
+
 PaddlePaddle
 ============
 

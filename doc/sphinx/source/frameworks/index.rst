@@ -4,7 +4,8 @@
 Working with Frameworks
 =======================
 
-.. include:: overview.rst
+.. important:: For a high-level overview of how framework bridges work in nGraph, 
+   see :doc:`fw_overview`.
 
 .. toctree::
    :maxdepth: 1

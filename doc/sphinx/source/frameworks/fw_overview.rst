@@ -1,4 +1,6 @@
-.. frameworks/overview.rst
+:orphan: 
+
+.. frameworks/fw_overview:
 
 .. _fw_overview:
 
@@ -8,7 +10,7 @@ Overview
 A framework is "supported" with a framework :term:`bridge` that can be written or
 cloned and used to connect to nGraph device backends while maintaining the 
 framework's programmatic or user interface. A `bridge currently exists`_ for the 
-TensorFlow framework. We also have a bridge to do :doc:`paddle_integ`.  Intel 
+TensorFlow framework. We also have a :doc:`paddle_integ` bridge. Intel 
 previously contributed work to an MXNet bridge; however, support for this 
 bridge is no longer active.
 
@@ -17,10 +19,9 @@ bridge is no longer active.
 
 .. figure:: ../graphics/overview-framework-bridges.svg
    :width: 960px
-   :alt: JiT compiling of a computation
+   :alt: Framework bridge to a graph construction
 
-   :abbr:`Just-in-Time (JiT)` Compiling for computation. nGraph `Core`
-   components are colored in blue.
+   Framework bridge to nGraph
 
 Once connected via the bridge, the framework can then run and train a deep
 learning model with various workloads on various backends using nGraph Compiler
