@@ -1,5 +1,7 @@
 .. frameworks/index.rst
 
+:orphan:
+
 Working with Frameworks
 #######################
 
@@ -7,8 +9,7 @@ Working with Frameworks
    :maxdepth: 1
    
    overview.rst
-   quickstart.rst
    tensorflow_connect.rst
    onnx_integ.rst 
    paddle_integ.rst
-   other.rst
+   other/index.rst

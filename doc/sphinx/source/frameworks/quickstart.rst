@@ -1,16 +1,18 @@
 .. frameworks/quickstart.rst
 
+:orphan:
+
 .. _fw_quickstart:
 
 Quick start
-===========
+-----------
 
 No matter what your level of experience with :abbr:`Deep Learning (DL)` systems 
 may be, nGraph provides a path to start working with the DL stack. Let's begin 
 with the easiest and most straightforward options.
 
 TensorFlow
-----------
+~~~~~~~~~~
 
 The easiest way to get started is to use the latest PyPI `ngraph-tensorflow-bridge`_,
 which has instructions for Linux\* systems, and tips for users of Mac OS X. 
@@ -50,7 +52,7 @@ See also the `diagnostic tools`_.
 
 
 ONNX
-----
+~~~~
 
 Another easy way to get started working with the :abbr:`DL (Deep Learning)`
 stack is to try the examples available via `nGraph ONNX`_.
@@ -68,18 +70,18 @@ Now you can start exploring some of the :doc:`onnx_integ` examples.
 See also nGraph's :doc:`../python_api/index`.
 
 PlaidML
--------
+~~~~~~~
 
 See the :ref:`ngraph_plaidml_backend` section on how to build the 
 nGraph-PlaidML.
 
 
 Other integration paths
------------------------
+~~~~~~~~~~~~~~~~~~~~~~~
 
 If you are considering incorporating components from the nGraph Compiler stack 
 in your framework or neural network design, another useful doc is the section 
-on :doc:`other` . Contents here are also useful if you are working on 
+on :doc:`other/index`. Contents here are also useful if you are working on 
 something built-from-scratch, or on an existing framework that is less 
 widely-supported than the popular frameworks like TensorFlow and PyTorch.
 

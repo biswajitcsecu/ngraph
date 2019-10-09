@@ -39,10 +39,14 @@ nGraph Compiler stack Documentation
    introduction.rst
 
 .. toctree::
-   :maxdepth: 2
+   :maxdepth: 1
    :caption: Framework Support
 
-   frameworks/index.rst
+   frameworks/overview.rst
+   frameworks/tensorflow_connect.rst
+   frameworks/onnx_integ.rst
+   frameworks/paddle_integ.rst
+   frameworks/other/index.rst
 
 .. toctree::
    :maxdepth: 1
@@ -98,9 +102,6 @@ nGraph Compiler stack Documentation
 
    project/release-notes.rst
    project/index.rst
-   project/extras/index.rst 
-   features.rst
-   project/release-notes.rst
 
 
 

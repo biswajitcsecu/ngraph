@@ -1,12 +1,11 @@
-.. project/extras/homomorphic_encryption.rst:
+.. frameworks/homomorphic_encryption.rst:
 
 Homomorphic Encryption (HE)
-===========================
+---------------------------
 
 * **Encryption with Intel® HE transformer for nGraph™** 
 
-  * `Blog post`_ 
-  * `Examples`_
+  * `Code repo`_
 
     .. note:: Some implementations using TensorFlow* may also work with the  
        `nGraph Bridge repo`_ if older versions of ``ngraph-tf`` are not 
@@ -21,5 +20,5 @@ Homomorphic Encryption (HE)
    encryption.
 
 .. _Blog post: https://www.intel.ai/he-transformer-for-ngraph-enabling-deep-learning-on-encrypted-data/
-.. _examples: https://github.com/NervanaSystems/he-transformer#examples
+.. _Code repo: https://github.com/NervanaSystems/he-transformer
 .. _nGraph Bridge repo: https://github.com/tensorflow/ngraph-bridge
