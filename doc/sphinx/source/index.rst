@@ -43,7 +43,6 @@ nGraph Compiler stack Documentation
    :caption: Framework Support
 
    frameworks/index.rst
-   frameworks/validated/list.rst
 
 .. toctree::
    :maxdepth: 1
@@ -63,6 +62,8 @@ nGraph Compiler stack Documentation
    nGraph Core Ops <ops/index.rst>
    core/control-flow.rst
    core/provenance.rst
+   core/quantization.rst
+   core/dynamic/dynamic_shapes.rst
 
 .. toctree::
    :maxdepth: 2

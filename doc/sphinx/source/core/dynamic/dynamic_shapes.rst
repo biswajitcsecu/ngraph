@@ -1,34 +1,17 @@
-.. backends/dynamicbackend-api/index.rst:
-
+.. core/dynamic/dynamic_shapes.rst:
 
 Dynamic Shapes
 ==============
 
-About
------
+Basic Concepts
+--------------
 
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-API
-===
+APIs
+====
 
 .. doxygenclass:: ngraph::runtime::dynamic::DynamicBackend
    :project: ngraph
    :members:
-
