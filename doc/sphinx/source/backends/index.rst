@@ -5,5 +5,6 @@
    
    overview.rst
    openvino.rst
+   executable-api/index.rst
    plaidml-ng-api/index.rst 
    backend-api/index.rst

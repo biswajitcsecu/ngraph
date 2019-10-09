@@ -12,7 +12,7 @@ Basic Concepts
 How? (Generic frameworks)
 -------------------------
 
-:include: ../core/constructing-graphs/distribute-train`
+:include: ../core/constructing-graphs/distribute-train.rst
 
 To synchronize gradients across all workers, the essential operation for data
 parallel training, due to its simplicity and scalability over parameter servers,

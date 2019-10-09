@@ -7,11 +7,6 @@ Basic Concepts
 --------------
 
 
-
-
-APIs
-====
-
 .. doxygenclass:: ngraph::runtime::dynamic::DynamicBackend
    :project: ngraph
    :members:
