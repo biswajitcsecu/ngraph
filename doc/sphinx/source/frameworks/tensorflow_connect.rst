@@ -8,6 +8,8 @@ See the `README`_ on the `ngraph_bridge repo`_ for the many ways to connect
 Tensorflow to nGraph, enabling a `DSO`_ backend that can speed up your TensorFlow 
 training and inference workloads.
 
+.. include:: ../project/extras/homomorphic_encryption.rst
+
 
 .. _README: https://github.com/tensorflow/ngraph-bridge/blob/master/README.md
 .. _ngraph_bridge repo: https://github.com/tensorflow/ngraph-bridge  

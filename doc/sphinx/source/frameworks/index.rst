@@ -8,7 +8,7 @@ Working with Frameworks
    
    overview.rst
    quickstart.rst
+   tensorflow_connect.rst
    onnx_integ.rst 
    paddle_integ.rst
-   tensorflow_connect.rst
    other.rst
