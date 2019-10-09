@@ -1,10 +1,12 @@
 .. backends/backend-api/index.rst:
 
+.. include:: cpp-api.rst
+
 
 .. _backend_api_macros:
 
-Backend APIs
-############
+Custom Backends
+###############
 
 Each backend ``BACKEND`` needs to define the macro ``${BACKEND}_API`` 
 appropriately to import symbols referenced from outside the library, 

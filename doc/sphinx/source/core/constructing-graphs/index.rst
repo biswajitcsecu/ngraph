@@ -16,7 +16,7 @@ Constructing Graphs
    derive-for-training.rst
    distribute-train.rst
    import.rst
-   Using the Python API <../../python_api/index.rst>
+   Use the Python API <../../python_api/index.rst>
        
 
 The "How to" articles in this section explain how to build or construct graphs 

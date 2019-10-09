@@ -1,9 +1,34 @@
-.. backends/hosttensor-api/index.rst:
+.. backends/dynamicbackend-api/index.rst:
 
 
-DynamicBackend
+Dynamic Shapes
 ==============
+
+About
+-----
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+API
+===
 
 .. doxygenclass:: ngraph::runtime::dynamic::DynamicBackend
    :project: ngraph
    :members:
+

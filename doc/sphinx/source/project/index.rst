@@ -11,4 +11,3 @@ This section contains documentation about the project and how to contribute.
    :maxdepth: 2
 
    contribution-guide.rst
-   governance.rst

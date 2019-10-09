@@ -10,6 +10,11 @@ training and inference workloads.
 
 .. include:: ../project/extras/homomorphic_encryption.rst
 
+.. figure:: ../graphics/nGraph_mask_1-1.png
+   :alt: nGraph HE logo
+   :width: 200px
+
+
 
 .. _README: https://github.com/tensorflow/ngraph-bridge/blob/master/README.md
 .. _ngraph_bridge repo: https://github.com/tensorflow/ngraph-bridge  

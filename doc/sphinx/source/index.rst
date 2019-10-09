@@ -37,8 +37,6 @@ nGraph Compiler stack Documentation
    :maxdepth: 1
 
    introduction.rst
-   features.rst
-   project/release-notes.rst
 
 .. toctree::
    :maxdepth: 2
@@ -47,27 +45,36 @@ nGraph Compiler stack Documentation
    frameworks/index.rst
    frameworks/validated/list.rst
 
+.. toctree::
+   :maxdepth: 1
+   :caption: Validated Workloads
+
+   frameworks/validated/list.rst
 
 .. toctree::
    :maxdepth: 1
    :caption: nGraph Core
 
-   buildlb.rst
    core/overview.rst
-   core/fusion/index.rst
-   nGraph Core Ops <ops/index.rst>
+   buildlb.rst
    core/constructing-graphs/index.rst
    core/passes/passes.rst
+   core/fusion/index.rst
+   nGraph Core Ops <ops/index.rst>
+   core/control-flow.rst
+   core/provenance.rst
 
+.. toctree::
+   :maxdepth: 2
+   :caption: Distributed Training 
+
+   training/index.rst  
    
 .. toctree::
    :maxdepth: 1
-   :caption: APIs 
+   :caption: Backend Support 
 
-   python_api/index.rst
    backends/index.rst
-   backends/cpp-api.rst
-
 
 .. toctree::
    :maxdepth: 1
@@ -91,6 +98,9 @@ nGraph Compiler stack Documentation
    project/release-notes.rst
    project/index.rst
    project/extras/index.rst 
+   features.rst
+   project/release-notes.rst
+
 
 
 .. only:: html
