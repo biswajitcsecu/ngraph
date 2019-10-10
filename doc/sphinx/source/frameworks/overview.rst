@@ -1,6 +1,6 @@
 .. frameworks/overview.rst
 
-Basic concepts
+Basic Concepts
 ==============
 
 .. figure:: ../graphics/overview-framework-bridges.svg
@@ -43,7 +43,6 @@ configurations available to users of the nGraph Compiler stack.
 .. figure:: ../graphics/overview-translation-flow.svg
    :width: 725px
    :alt: Translation flow to an nGraph function graph
-
 
 .. include:: quickstart.rst
 

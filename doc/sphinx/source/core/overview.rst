@@ -1,6 +1,5 @@
 .. core/overview.rst:
 
-
 Basic Concepts
 ==============
 
