@@ -224,15 +224,6 @@ void op::v1::ConvolutionBackpropData::validate_and_infer_types()
         data_batch_shape = get_data_batch_shape();
     }
 
-    NODE_VALIDATION_CHECK(
-        this,
-        element::Type::merge(forward_result_et, delta_et, filters_et),
-        "Element types for data batch and filters do not match (data batch element type: ",
-        delta_et,
-        ", filters element type: ",
-        filters_et,
-        ").");
-
     forward_result_shape =
         infer_convolution_forward(this,
                                   data_batch_shape,
