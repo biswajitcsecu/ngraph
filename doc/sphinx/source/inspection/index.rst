@@ -1,5 +1,7 @@
 .. inspection/index: 
 
+.. contents::
+
 Visualization Tools
 ###################
 
@@ -18,6 +20,20 @@ hard-to-render training graph tractable. This can be a tedious process, so
 incorporating the help of a rendering engine or third-party tool like those 
 listed below may be useful.  
 
+#. `Gephi`_
+
+#. `Cytoscape`_
+
+
+Profiling Tools
+###############
+
+``nbench``
+==========
+
+The `nbench` tool ... 
+
+
 
 .. Additional scripts
 .. ==================
@@ -25,14 +41,8 @@ listed below may be useful.
 .. We have provided a script to convert the `most common default output`_, nGraph 
 .. ``JSON``, to an output that is better able to handle detailed graphs; however, 
 .. we do not offer user support for this script. The script will produce a 
-.. ``.graphml`` file that can be imported and inspected with third-party tools 
-.. like: 
-
-#. `Gephi`_
-
-#. `Cytoscape`_
-
-.. #. `Netron`_ support tentatively planned to come soon
+.. ``.graphml`` file that can be imported and inspected with third-party tools. 
+.. `Netron`_ support tentatively planned to come soon.
 
 
 .. _CMakeLists.txt: https:github.com/NervanaSystems/ngraph/blob/master/CMakeLists.txt

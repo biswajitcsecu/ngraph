@@ -1,4 +1,4 @@
-.. howto/distribute-train.rst 
+.. core/constructing-graphs/distribute-train.rst:
 
 
 Distribute training across multiple nGraph backends 

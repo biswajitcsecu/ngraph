@@ -6,9 +6,8 @@ Distributed Training
 
 
 .. toctree::
-   :maxdepth: 2
+   :maxdepth: 1
    
    overview.rst
    data_ingest.rst
-..   qat.rst  Quantization-Aware Training TBD
 

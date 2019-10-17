@@ -71,9 +71,10 @@ nGraph Compiler Stack Documentation
 
 .. toctree::
    :maxdepth: 2
-   :caption: Distributed Training 
+   :caption: Training 
 
-   training/index.rst  
+   training/index.rst
+   training/qat.rst
    
 .. toctree::
    :maxdepth: 1
@@ -82,7 +83,7 @@ nGraph Compiler Stack Documentation
    backends/index.rst
 
 .. toctree::
-   :maxdepth: 1
+   :maxdepth: 2
    :caption: Inspecting Graphs
 
    inspection/index.rst
