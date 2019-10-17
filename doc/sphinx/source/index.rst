@@ -13,7 +13,7 @@
 .. ---------------------------------------------------------------------------
 
 
-nGraph Compiler stack Documentation 
+nGraph Compiler Stack Documentation 
 ###################################
 
 
@@ -23,7 +23,7 @@ nGraph Compiler stack Documentation
 
    nGraph Compiler stack documentation for version |version|.
 
-.. only:: (development or daily)
+.. only:: development
 
    nGraph Compiler stack documentation for the master tree under development 
    (version |version|).
@@ -65,7 +65,7 @@ nGraph Compiler stack Documentation
    core/fusion/index.rst
    nGraph Core Ops <ops/index.rst>
    core/control-flow.rst
-   core/provenance.rst
+   provenance/index.rst
    core/quantization.rst
    core/dynamic/dynamic_shapes.rst
 
