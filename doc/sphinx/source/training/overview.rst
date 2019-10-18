@@ -9,25 +9,12 @@ Basic Concepts
    devices in testing environments.
 
 
-How? (Generic frameworks)
--------------------------
-
-.. include:: ../core/constructing-graphs/distribute-train.rst
-
-To synchronize gradients across all workers, the essential operation for data
-parallel training, due to its simplicity and scalability over parameter servers,
-is ``allreduce``. The AllReduce op is one of the nGraph Library’s core ops. To
-enable gradient synchronization for a network, we simply inject the AllReduce op
-into the computation graph, connecting the graph for the autodiff computation
-and optimizer update (which then becomes part of the nGraph graph). The
-nGraph Backend will handle the rest.
-
 Data scientists with locally-scalable rack or cloud-based resources will likely
 find it worthwhile to experiment with different modes or variations of
 distributed training. Deployments using nGraph Library with supported backends
 can be configured to train with data parallelism and will soon work with model
 parallelism. Distributing workloads is increasingly important, as more data and
-bigger models mean the ability to :doc:`../../core/constructing-graphs/distribute-train`
+bigger models mean the ability to :doc:`../core/constructing-graphs/distribute-train`
 work with larger and larger datasets, or to work with models having many layers
 that aren't designed to fit to a single device.
 
